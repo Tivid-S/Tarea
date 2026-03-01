@@ -1,0 +1,54 @@
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 300px;
+}
+/* PRIMERA SECCION DEL FOOTER */
+.section_1{
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgfoot{
+    /* border: white 1px solid; */
+    width: 10%;
+    height: 100px;
+    background-image: url("../images/rocket.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(white 0px 0px 5px);
+    margin-top: 10px;
+}
+
+.servicios{
+    display: flex;
+}
+.servicios>ul{
+    /* border: white 1px solid; */
+    display: flex;
+    margin: 10;
+    padding: 10px;
+    list-style: none;
+}
+
+.servicios>ul>li>a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    descent-override: initial;
+}
+.final{
+    width: 100%;
+    height: 100px;
+    background: #37342b;
+    background: linear-gradient(180deg, rgba(64, 56, 33, 1) 24%, rgba(2, 0, 36, 1) 80%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

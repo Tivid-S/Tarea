@@ -1,0 +1,52 @@
+.banner{
+    width: 100%;
+    height: 300px;
+    background: #19160B;
+background: linear-gradient(90deg, rgba(25, 22, 11, 1) 0%, rgba(180, 154, 75, 1) 50%, rgba(225, 214, 183, 1) 100%);
+    display: flex;
+}
+.info-banner{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    color: white;
+}
+.foto-banner{
+    width: 50%;
+    height: 100%;
+    background-image: url("../images/Foto1p.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.formulario{
+    display: flex;
+}
+p{
+    text-align: justify;
+}
+input, button{
+    padding: 7px;
+    border-radius: 19px;
+}
+input{
+    margin-right: 10px;
+    border: none;
+    
+    
+}
+button{
+    background-color: #483D1E;
+    border: white 1px solid;
+    width: 150px;
+    color: white;
+    
+}
+button:hover{
+    background-color: rgb(127, 127, 177);
+}
+
+
